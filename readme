@@ -1,0 +1,218 @@
+DC Submition:
+{
+    "method": "dc/addReport",
+    "data": {
+        "productRequirment": [
+            {
+                "name": "nuts and bolts",
+                "rate": "150",
+                "qty": "56",
+                "setVatRow": 0,
+                "amt": 8400
+            }
+        ],
+        "customerTo": {
+            "date": "17-11-2015",
+            "customer": "8",
+            "billno": "3"
+        },
+        "grandTotal": 8400,
+        "actionPerform": "p",
+        "loggedInUser": {
+            "user": "giriy",
+            "name": "Giriy Poshaneeshwar"
+        }
+    }
+}
+
+
+
+{
+    "projects": [],
+    "requests": [
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "",
+            "time": 1444991594773,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "{method: \"addReport\"}\nContent-Type: application/json",
+            "method": "POST",
+            "payload": "",
+            "time": 1445255828681,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{method: \"addReport\"}",
+            "time": 1445255842916,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{method: \"addReport\", data: \"12\"}",
+            "time": 1445255900465,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{method: \"addReport\", data: {id: \"12\", name=\"gg\"}}",
+            "time": 1445256276440,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{method: \"addReport/addReport\", data: {id: \"12\", name=\"gg\"}}",
+            "time": 1445256384732,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{method: \"dc/addReport\", data: {id: \"12\", name=\"gg\"}}",
+            "time": 1445256410819,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{method: \"dc/addReport\", Data: {id: \"12\", name=\"gg\"}}",
+            "time": 1445331913516,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/x-www-form-urlencoded",
+            "method": "POST",
+            "payload": "{method: \"dc/addReport\", Data: {id: \"12\", name=\"gg\"}}",
+            "time": 1445319918548,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/atom+xml",
+            "method": "POST",
+            "payload": "{method: \"dc/addReport\", Data: {id: \"12\", name=\"gg\"}}",
+            "time": 1445319921807,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/xml",
+            "method": "POST",
+            "payload": "{method: \"dc/addReport\", Data: {id: \"12\", name=\"gg\"}}",
+            "time": 1445319925574,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: multipart/form-data",
+            "method": "POST",
+            "payload": "{method: \"dc/addReport\", Data: {id: \"12\", name=\"gg\"}}",
+            "time": 1445319928837,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: text/html",
+            "method": "POST",
+            "payload": "{method: \"dc/addReport\", Data: {id: \"12\", name=\"gg\"}}",
+            "time": 1445319932125,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: text/plain",
+            "method": "POST",
+            "payload": "{method: \"dc/addReport\", Data: {id: \"12\", name=\"gg\"}}",
+            "time": 1445319935950,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{\n    \"method\": \"customers/insertCustomer\",\n    \"data\": {\n        \"res\": {\n            \"company\": \"indotech\",\n            \"companyType\": \"sales & service\",\n            \"tin\": \"888777878\",\n            \"customer\": \"ahmed\",\n            \"phone\": \"878787865\",\n            \"email\": \"indotech06@gmail.com\",\n            \"address\": \"secunderabad\",\n            \"description\": \"computer sales and service\"\n        },\n        \"loggedInUser\": {\n            \"user\": \"giriy\",\n            \"name\": \"Giriy Poshaneeshwar\"\n        }\n    }\n}",
+            "time": 1447317861676,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{\"method\":\"customers/insertCustomer\",\"data\":{\"res\":{\"company\":\"asfd\",\"companyType\":\"sadf\",\"tin\":\"23243324\",\"address\":\"adfsadf\",\"customer\":\"adsfdasf\",\"phone\":\"213234\",\"email\":\"adf\",\"description\":\"adfs\"},\"loggedInUser\":{\"user\":\"giriy\",\"name\":\"Giriy Poshaneeshwar\"}}}",
+            "time": 1447329601729,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{\"method\":\"products/insertProduct\",\"data\":{\"res\":{\"code\":\"123\",\"name\":\"hdd\",\"type\":\"storage\",\"price\":\"5000\",\"qty\":\"15\",\"description\":\"computer part\"},\"loggedInUser\":{\"user\":\"giriy\",\"name\":\"Giriy Poshaneeshwar\"}}}",
+            "time": 1447515984204,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{\"method\":\"login/loginUser\",\"data\":{\"res\":{\"username\":\"giriy\",\"password\":\"admin\"},\"loggedInUser\":{}}}",
+            "time": 1447662809986,
+            "url": "http://icsitpark/appbuild/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{\"method\":\"login/loginUser\",\"data\":{\"res\":{\"username\":\"giriy\",\"password\":\"admin\"},\"loggedInUser\":{}}}",
+            "time": 1447347121509,
+            "url": "http://icsitpark.in/appbuild/appBuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{\"method\":\"login/loginUser\",\"data\":{\"res\":{\"username\":\"giriy\",\"password\":\"admin\"},\"loggedInUser\":{}}}",
+            "time": 1447347139589,
+            "url": "http://icsitpark.in/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{\"method\":\"dc/dcNumber\",\"data\":{\"res\":{},\"loggedInUser\":{\"user\":\"giriy\",\"name\":\"Giriy Poshaneeshwar\"}}}",
+            "time": 1447577925791,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{\"method\":\"dc/addReport\",\"data\":{\"productRequirment\":[{\"name\":\"hdd\",\"rate\":\"5000\",\"qty\":\"2\",\"setVatRow\":0,\"amt\":10000}],\"customerTo\":{},\"grandTotal\":10000,\"actionPerform\":\"p\",\"loggedInUser\":{\"user\":\"giriy\",\"name\":\"Giriy Poshaneeshwar\"}}}",
+            "time": 1447662820470,
+            "url": "http://localhost/appbuild/server/"
+        },
+        {
+            "encoding": "application/x-www-form-urlencoded",
+            "headers": "Content-Type: application/json",
+            "method": "POST",
+            "payload": "{\"method\":\"dc/renderBill\",\"data\":{\"res\":{},\"loggedInUser\":{\"user\":\"giriy\",\"name\":\"Giriy Poshaneeshwar\"}}}",
+            "time": 1447662776382,
+            "url": "http://localhost/appbuild/server/"
+        }
+    ]
+}
