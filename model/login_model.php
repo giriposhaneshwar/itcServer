@@ -27,7 +27,7 @@ class login_Model extends Model {
         $count = $sth->rowCount();
         if ($count > 0) {
             // Login Success send the data to redirect the page
-            
+
             $buildObj['result'] = "success";
             $buildObj['page'] = "dashboard";
             $buildObj['data'] = $data;
@@ -38,6 +38,10 @@ class login_Model extends Model {
             // header('location: ../login');
             echo "No users to show : " . $count;
         }
+    }
+
+    function checkLogin($postData) {
+        return $postData;
     }
 
 }

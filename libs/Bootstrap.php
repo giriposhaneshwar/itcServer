@@ -32,7 +32,19 @@ class Bootstrap {
 
         $d = json_decode($d, true);
 
+        $url = isset($_GET['url']) ? $_GET['url'] : "";
+        $url = rtrim($url, '/');
+        $url = filter_var($url, FILTER_SANITIZE_URL);
+        $url = explode('/', $url);
 
+        // echo "URL : ". $d['method'];
+//         var_dump($url);
+        $this->_url = $url;
+        if (gettype($d) != "string") {
+            $this->_data = $d['data'];
+        } else {
+            $this->_data = $d;
+        }
 
 
 
@@ -64,23 +76,6 @@ class Bootstrap {
           echo ' - Unknown error';
           break;
           } */
-
-
-
-
-
-
-
-        $url = $d['method'];
-        $url = rtrim($url, '/');
-        $url = filter_var($url, FILTER_SANITIZE_URL);
-        $url = explode('/', $url);
-
-        // echo "URL : ". $d['method'];
-//         var_dump($url);
-        $this->_url = $url;
-
-        $this->_data = $d['data'];
     }
 
     // loading the controllers
